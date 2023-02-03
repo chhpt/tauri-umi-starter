@@ -1,0 +1,25 @@
+{
+  "name": "tauri-umi-starter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup"
+  },
+  "dependencies": {
+    "antd": "^5.1.7",
+    "umi": "^4.0.49"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.2.3",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@umijs/plugins": "^4.0.49",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.58.0",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.5"
+  }
+}
